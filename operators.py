@@ -10,9 +10,13 @@ foo = foo + 42
 # += opérateur d'incrémentation
 foo += 42
 
+#foo++ équivalent à foo += 1 mais l'opérateur ++ n'existe pas en python
+
 # - soustraction
 foo = 123 - 42
 foo = foo - 42
+
+#foo-- équivalent à foo -= 1 mais l'opérateur -- n'existe pas en python
 
 # -= opérateur de décrementation
 foo -= 42
@@ -59,3 +63,28 @@ foo = 4 ** (1/2)
 # racine cubique
 foo = 8 ** (1/3)
 print(foo)
+
+# les opérateurs de comparaison
+
+# l'égalité ==
+# à ne pas confondre avec l'affectation =
+# à ne pas confondre avec l'identité === (qui n'existe pas en python)
+result = 1 == 1
+print(result)
+
+# les opérateurs de grandeurs
+# plus petit que ou égal à
+result = 123 <= 42
+print(result)
+
+# plus grand que 
+result = 123 > 42
+print(result)
+
+# plus grand que ou égal à
+result = 123 >= 42
+print(result)
+
+# l'inégalité (ou différence)
+result = 123 != 42
+print(result)
