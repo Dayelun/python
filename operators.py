@@ -88,3 +88,32 @@ print(result)
 # l'inégalité (ou différence)
 result = 123 != 42
 print(result)
+
+# les encadrements avec < > <= >=
+my_number = random.randint(0, 100)
+print(my_number)
+
+result = 0 <= my_number <= 100
+
+
+
+
+
+
+# opérateur and (et)
+result = True and False # False
+print(result)
+result = False and True  # False
+print(result)
+result = True and True # True
+print(result)
+result = False and False # False
+print(result)
+
+a = random.randint(0, 1)
+b = random.randint(0, 1)
+result = a and b
+print(a, b)
+print(result)
+
+# utilisation un peu "spéciales" des comparaisons de grandeurs.

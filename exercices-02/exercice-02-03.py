@@ -4,4 +4,8 @@
 # Affichez le résultat.
 
 # réponse 2.3
+number2 = 2.7182
+print(number2)
 
+number2_int = int(number2)
+print(number2_int)
