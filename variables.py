@@ -132,5 +132,43 @@ print(b)
 # transtypage == type casting == conversion d'un type de données
 
 # 0 donne False et tout les autres donnent True
-my_number7 = 3
+my_number7 = 0
+# conversion explicite en booléen
 print(bool(my_number7))
+
+# conversion implicite en booléen
+if my_number7:
+    print("L'utilisateur a mis autre chose que zéro")
+else:
+    print("L'utilisateur a mis zéro")
+
+my_text8 = ''
+print(bool(my_text8))
+
+# conversion implicite en booléen
+if my_text8:
+    print("L'utilisateur a écrit quelque chose")
+else:
+    print("L'utilisateur n'a rien écrit")
+
+# listes
+fruits = ['ananas', 'banane', 'cerise']
+
+# opérateur d'inclusion
+result = 'ananas' in fruits
+print(result)
+result = 'fraise' in fruits
+print(result)
+
+# conversion explicite en booléen
+result = bool(fruits)
+print(result)
+
+# conversion implicite en booléen
+if fruits:
+    print("La liste contient des élements")
+else:
+    print("La liste ne contient aucun élement")
+
+#conversion explicite en booléen, mais attention, None ne peut pas être converti en int ou float
+print(bool(None))
