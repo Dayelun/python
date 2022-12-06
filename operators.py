@@ -1,7 +1,7 @@
 import random
 import math
 
-# = affectation
+# = affetaction
 foo = 123
 
 # + addition
@@ -9,17 +9,20 @@ foo = 123 + 42
 foo = foo + 42
 # += opérateur d'incrémentation
 foo += 42
+print(foo)
 
-#foo++ équivalent à foo += 1 mais l'opérateur ++ n'existe pas en python
+# foo++ équivalent de foo += 1
+# mais l'opérateur ++ n'existe pas en python
 
 # - soustraction
 foo = 123 - 42
 foo = foo - 42
-
-#foo-- équivalent à foo -= 1 mais l'opérateur -- n'existe pas en python
-
-# -= opérateur de décrementation
+# -= opérateur de décrémentation
 foo -= 42
+print(foo)
+
+# foo-- équivalent de foo -= 1
+# mais l'opérateur -- n'existe pas en python
 
 # / division
 foo = 123 / 42
@@ -38,13 +41,8 @@ print(type(foo))
 foo = 4 % 3
 foo = random.randint(1, 100)
 print(foo)
-print(foo % 2)
-foo %= 2
-
 
 # * multiplication
-
-
 # ** puissance
 foo = 2 ** 2
 foo = 2 ** 3
@@ -52,10 +50,12 @@ foo = 2 ** 4
 foo = 2 ** 5
 foo = 2 ** 6
 print(foo)
+
 # ^ puissance mais pas en python
 
 # math.sqrt() racine carré
 foo = math.sqrt(4)
+
 # ** 0.5 racine carré
 foo = 4 ** 0.5
 # 0.5 == 1/2
@@ -69,19 +69,24 @@ print(foo)
 # l'égalité ==
 # à ne pas confondre avec l'affectation =
 # à ne pas confondre avec l'identité === (qui n'existe pas en python)
-result = 1 == 1
+result = 1 == 1.0
 print(result)
 
-# les opérateurs de grandeurs
-# plus petit que ou égal à
+# les grandeurs
+# plus petit que
+result = 123 < 42
+print(result)
+
+# plus petit ou égal à
+# à ne pas confondre avec => js
 result = 123 <= 42
 print(result)
 
-# plus grand que 
+# plus grand que
 result = 123 > 42
 print(result)
 
-# plus grand que ou égal à
+# plus grand ou égal à
 result = 123 >= 42
 print(result)
 

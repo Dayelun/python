@@ -128,3 +128,9 @@ print(a)
 foo = 2.71
 b = foo - a
 print(b)
+
+# transtypage == type casting == conversion d'un type de données
+
+# 0 donne False et tout les autres donnent True
+my_number7 = 3
+print(bool(my_number7))
