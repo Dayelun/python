@@ -114,4 +114,19 @@ print(my_list1)
 
 print(len(my_list1))
 
+# accès en lecture au 0ème caractère de la str
+# accès en écriture interdit --> my_text9[0] = 'A'
+
+
+
+print(my_text9[0:10])
+
+# accès en lecture au 10ème caractère à la fin de la str
+print(my_text9[10:])
+
+#accès en lecture par la fin de la str
+print(my_text9[:-1])
+
+#accès en lecture 1 caractère sur de la str
+print(my_text9[:2])
 
