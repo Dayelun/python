@@ -67,7 +67,7 @@ def hello(name: str) -> None:
 # appel d'une fonction  
 hello('Toto')
 
-#help() = affiche la doc d'une fonction
+#help('') = affiche la doc d'une fonction
 
 my_text9 = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia non minus necessitatibus aliquid illo! Ut aspernatur eum adipisci recusandae voluptatibus aspernatur veritatis quis. Nobis, sed sequi!"
 
