@@ -7,6 +7,6 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
 
 # réponse 5.5
-lines = my_text.readlines()
+lines = my_text.find()
 
-print(len(lines))
+print(lines)
